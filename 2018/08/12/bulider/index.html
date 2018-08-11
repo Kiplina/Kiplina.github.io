@@ -15,7 +15,7 @@
     <meta name="description" content="my life">
     <meta name="Cache-Control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>Kiplina&#39;s Studio</title>
+    <title>这是我的博客 · Kiplina&#39;s Studio</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -70,6 +70,8 @@
 
     <link rel="preload" href= /css/style.css?v=20180721 as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <link rel="stylesheet" href= /css/mobile.css?v=20180721 media="(max-width: 980px)">
+    
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     
     <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 /* This file is meant as a standalone workflow for
@@ -194,12 +196,23 @@
 </head>
 
     
+        <body class="post-body">
+    
     
 <header class="header">
 
     <div class="read-progress"></div>
     <div class="header-sidebar-menu">&#xe775;</div>
     <!-- post页的toggle banner  -->
+    
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/" >Kiplina&#39;s Studio.</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">这是我的博客</a>
+            </div>
+    </div>
     
     <a class="home-link" href=/>Kiplina's Studio.</a>
 </header>
@@ -213,24 +226,68 @@
 
 
 
+height:50vh;
+
 >
     
     <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/)"></div>
+    <div class="site-intro-img" style="background-image: url(/intro/post-bg.jpg)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
+            
+            这是我的博客
+            <!-- 404 -->
             
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
+            
+            <!-- 404 -->
+            
         </p>
         <!-- 文章页meta -->
+        
+            <div class="post-intros">
+                <!-- 文章页标签  -->
+                
+                
+                    <div class="post-intro-read">
+                        <span>Word count: <span class="post-count">174</span> / Reading time: <span class="post-count">1 min</span></span>
+                    </div>
+                
+                <div class="post-intro-meta">
+                    <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                    <span class="post-intro-time">2018/08/12</span>
+                    
+                    <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                        <span class="iconfont-archer">&#xe602;</span>
+                        <span id="busuanzi_value_page_pv"></span>
+                    </span>
+                    
+                    <span class="shareWrapper">
+                        <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                        <span class="shareText">Share</span>
+                        <ul class="shareList">
+                            <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                                <div class="share-qrcode"></div>
+                            </li>
+                            <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                            <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                            <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                            <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
         
     </div>
 </div>
@@ -331,44 +388,54 @@
 </script>        
         <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
         <div class="container container-unloaded">
-            <main class="main index-page">
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2018/08/12/bulider/" >
-            
-                <span>这是我的博客</span>
-        </a>
-        <div class="abstract-content">
-            从何说起
-怎么说呢，刚把这个博客搭起来以后就很冲动的想写一篇文章发表放出来了，但是想了一下，我决定还是作为第一个自己的博客，还是想把这个搭建过程记录下来，说不定什么时候还能用到.
-
-注册个github帐号
-首先我们需要去注册个自己的github帐号，点击这里
-
-
-
-填写邮箱和密码就可以去注册，然后顺着1，2，3步就可以注册成功。1后面需要用到这个用户名去做子域名名称，所以定义的时候要慎重一下
-
-
-创建第一个仓库
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/08/12</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
+            <main class="main post-page">
+    <article class="article-entry">
+        <h2 id="从何说起"><a href="#从何说起" class="headerlink" title="从何说起"></a>从何说起</h2><blockquote>
+<p>怎么说呢，刚把这个博客搭起来以后就很冲动的想写一篇文章发表放出来了，<br>但是想了一下，我决定还是作为第一个自己的博客，还是想把这个搭建过程记录下来，<br>说不定什么时候还能用到.</p>
+</blockquote>
+<h2 id="注册个github帐号"><a href="#注册个github帐号" class="headerlink" title="注册个github帐号"></a>注册个github帐号</h2><ul>
+<li>首先我们需要去注册个自己的github帐号，点击<a href="https://github.com/join?source=header-home" target="_blank" rel="noopener">这里</a></li>
+</ul>
+<p><img src="images/bulider_1.jpg" alt="github注册"></p>
+<ul>
+<li>填写邮箱和密码就可以去注册，然后顺着1，2，3步就可以注册成功。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">后面需要用到这个用户名去做子域名名称，所以定义的时候要慎重一下</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="创建第一个仓库"><a href="#创建第一个仓库" class="headerlink" title="创建第一个仓库"></a>创建第一个仓库</h2>
     </article>
+    <!-- license  -->
+    
+        <div class="license-wrapper">
+            <p>原文作者: <a href="http://kiplina.github.io">Kiplina</a>
+            <p>原文链接: <a href="http://kiplina.github.io/2018/08/12/bulider/">http://kiplina.github.io/2018/08/12/bulider/</a>
+            <p>发表日期: <a href="http://kiplina.github.io/2018/08/12/bulider/">August 12th 2018, 3:17:23 am</a>
+            <p>版权声明: 本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
+        </div>
     
     <!-- paginator  -->
+    <ul class="post-paginator">
+        <li class="next">
+            
+        </li>
+        <li class="previous">
+            
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
     
+    
+    <!--PC和WAP自适应版-->
+
+    <!--PC版-->
+
+
+    
+    
+
+    <!-- 评论 -->
 </main>
             <!-- profile -->
             
@@ -442,6 +509,24 @@
 </footer>
     </div>
     <!-- toc -->
+    
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#从何说起"><span class="toc-number">1.</span> <span class="toc-text">从何说起</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#注册个github帐号"><span class="toc-number">2.</span> <span class="toc-text">注册个github帐号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#创建第一个仓库"><span class="toc-number">3.</span> <span class="toc-text">创建第一个仓库</span></a></li></ol>
+    </div>
     
     <div class="back-top iconfont-archer">&#xe639;</div>
     <div class="sidebar sidebar-hide">
@@ -555,6 +640,8 @@ jsonContent:
     
     </div>
     <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script>    
      
     </body>
 </html>
